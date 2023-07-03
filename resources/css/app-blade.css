@@ -1,0 +1,99 @@
+.navbar1 {
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+.navbar-nav {
+    float: right;
+    display: inline;
+    z-index: 1;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+li {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Content Styles */
+.content {
+    flex: 1;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #173459;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    width: 100%;
+    margin-top: auto;
+    bottom: 0;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #333;
+}
+
+
+.notification-number {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+
+.toast-success {
+background-color: #93cae8;
+color: #ffffff;
+}
+
+.toast-error {
+background-color: #dc3545;
+color: #ffffff;
+}
+
+.toast-info {
+background-color: #173459;
+color: #ffffff;
+}
+
+#cart-notification-count {
+background-color: #173459;
+color: #ffffff;
+}

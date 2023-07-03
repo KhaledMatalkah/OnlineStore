@@ -1,0 +1,40 @@
+/* From uiverse.io by @Ali-Tahmazi99 */
+.button-cart {
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #03045e;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+    background-color: rgb(3, 89, 126);
+    color: #fff;
+   }
+
+   .button-cart::before,
+   .button-cart::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+   }
+
+   .button-cart::before {
+    left: -10px;
+    background: #4ea3ce;
+   }
+
+   .button-cart::after {
+    right: -10px;
+    background: #173459;
+   }
+
+   .button-cart:hover::before,
+   .button-cart:hover::after {
+    width: 58%;
+   }

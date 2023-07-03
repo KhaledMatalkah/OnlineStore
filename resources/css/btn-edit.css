@@ -1,0 +1,25 @@
+.button-edit {
+    color: #090909;
+    border-radius: 0.5em;
+    background:  rgb(3, 89, 126);
+    border: 1px solid  rgb(3, 89, 126);
+    color: #fff;
+    transition: all .3s;
+    position: relative;
+  }
+
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .button-edit:hover {
+    border: 1px solid rgb(3, 89, 126);
+    box-shadow: 6px 6px 12px  rgb(3, 89, 126),
+               -6px -6px 12px  rgb(3, 89, 126);
+  }
+
+  .button-edit:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+               -4px -4px 12px #ffffff;
+  }

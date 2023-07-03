@@ -1,0 +1,7 @@
+.button-delete {
+    color: rgb(3, 89, 126);
+    border-radius: 0.5em;
+    background: transparent;
+    border: 1px solid  rgb(3, 89, 126);
+    transition: all .3s;
+  }
